@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=iotvjstorage;AccountKey=0uoU3Fo8ZqlO4ds5iMpOHou/F5sAdb3IZ0ZfMlJQ084yJ+qpIhQq5PdK1r2PxPuLJzmE6JilBPFM+AStt9iLig==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "CosmosDBConnection": "AccountEndpoint=https://iotvjdbdev.documents.azure.com:443/;AccountKey=bwhcQLuEawqlVARLErWSoYCOLfQ8rk67pgGSq4CZcwHXh0Bgd0LcLd7y7qxN3mDARM8pNeEC70UPACDbYHVagw==;"
+  }
+}

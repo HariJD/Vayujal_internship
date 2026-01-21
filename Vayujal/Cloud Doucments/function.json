@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "type": "eventGridTrigger",
+      "name": "eventGridEvent",
+      "direction": "in"
+    },
+    {
+      "type": "cosmosDB",
+      "name": "outputDocument",
+      "direction": "out",
+      "databaseName": "AWGvjdb",
+      "containerName": "Telemetry",
+      "connectionStringSetting": "CosmosDB",
+      "partitionKey": "/deviceId"
+    }
+  ],
+  "scriptFile": "index.js"
+}
